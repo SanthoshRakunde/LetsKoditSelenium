@@ -1,6 +1,6 @@
 import pytest
-from Framework.pages.home.login_page import LoginPage
-from Framework.utilities.teststatus import TestStatus
+from pages.home.login_page import LoginPage
+from utilities.teststatus import TestStatus
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")

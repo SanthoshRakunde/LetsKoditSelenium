@@ -10,7 +10,7 @@ Example:
 import time
 import traceback
 import random, string
-from Framework.utilities import customlogger as cl
+from utilities import customlogger as cl
 import logging
 
 class Util(object):

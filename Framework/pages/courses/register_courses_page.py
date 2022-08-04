@@ -1,8 +1,8 @@
 import logging
 import time
 
-from Framework.utilities import customlogger as cl
-from Framework.base.basepage import BasePage
+from utilities import customlogger as cl
+from base.basepage import BasePage
 
 
 class RegisterCoursesPage(BasePage):

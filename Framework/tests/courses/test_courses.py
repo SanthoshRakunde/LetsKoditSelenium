@@ -1,7 +1,7 @@
 import time
 import pytest
-from Framework.pages.courses.register_courses_page import RegisterCoursesPage
-from Framework.utilities.teststatus import TestStatus
+from pages.courses.register_courses_page import RegisterCoursesPage
+from utilities.teststatus import TestStatus
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")

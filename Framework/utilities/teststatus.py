@@ -7,9 +7,9 @@ It provides functionality to assert the result
 Example:
     self.check_point.markFinal("Test Name", result, "Message")
 """
-import Framework.utilities.customlogger as cl
+import utilities.customlogger as cl
 import logging
-from Framework.base.selenium_driver import SeleniumDriver
+from base.selenium_driver import SeleniumDriver
 
 class TestStatus(SeleniumDriver):
 
